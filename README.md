@@ -1,4 +1,4 @@
-# intodns-ai
+# IntoDNS.ai
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,142 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-intodns-ai is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://intodns.ai/
+IntoDNS.ai provides a free DNS and email security checker that grades domains for SPF, DKIM, DMARC, DNSSEC, MTA-STS, BIMI and other signals. It offers AI‑assisted explanations, a public API for developers, and tools for scanning and reporting security gaps. The service is openly available without an API key and aims to help organizations improve their email and DNS posture.
+
+**Areas:** DNS · EmailSecurity · FreeTool · API · AI
+
+## IntoDNS.ai on APIs.io
+
+Everything profiled for IntoDNS.ai is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/intodns-ai/](https://apis.io/providers/intodns-ai/)** — or go straight to one of the APIs or properties below.
+
+### APIs (6)
+
+- [IntoDNS.ai AI API](https://apis.io/apis/intodns-ai/intodns-ai-ai-api/) — AI-assisted explanations and fixes
+- [IntoDNS.ai Dns API](https://apis.io/apis/intodns-ai/intodns-ai-dns-api/) — DNS lookup and validation
+- [IntoDNS.ai Email API](https://apis.io/apis/intodns-ai/intodns-ai-email-api/) — Email security checks
+- [IntoDNS.ai Scan API](https://apis.io/apis/intodns-ai/intodns-ai-scan-api/) — Domain scanning operations
+- [IntoDNS.ai System API](https://apis.io/apis/intodns-ai/intodns-ai-system-api/) — The system API from IntoDNS.ai — 1 operation(s) for system.
+- [IntoDNS.ai Web API](https://apis.io/apis/intodns-ai/intodns-ai-web-api/) — Web security checks and generators
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### AsyncAPI (1)
+
+Event-driven and webhook contracts.
+
+- [Intodns Ai Webhooks](https://apis.io/asyncapis/intodns-ai/intodns-ai-webhooks/)
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [IntoDNS.ai Agentic Access](https://apis.io/agentic-access/intodns-ai/intodns-ai-agentic-access/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [AIExplainResponse](https://apis.io/schemas/intodns-ai/intodns-ai-aiexplain-response/)
+- [AIFixResponse](https://apis.io/schemas/intodns-ai/intodns-ai-aifix-response/)
+- [CspScanResult](https://apis.io/schemas/intodns-ai/intodns-ai-csp-scan-result/)
+- [DNSSECResult](https://apis.io/schemas/intodns-ai/intodns-ai-dnssecresult/)
+- [EverythingReport](https://apis.io/schemas/intodns-ai/intodns-ai-everything-report/)
+- [SecurityHeadersAnalyzeResult](https://apis.io/schemas/intodns-ai/intodns-ai-security-headers-analyze-result/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Intodns Ai Context](https://apis.io/jsonld/intodns-ai/intodns-ai-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [IntoDNS.ai API Rules](https://apis.io/rules/intodns-ai/intodns-ai-rules/)
+
+#### Security (3)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [IntoDNS.ai Authentication](https://apis.io/security/intodns-ai/intodns-ai-authentication/)
+- [IntoDNS.ai Domain Security](https://apis.io/security/intodns-ai/intodns-ai-domain-security/)
+- [IntoDNS.ai Vulnerability Disclosure](https://apis.io/security/intodns-ai/intodns-ai-vulnerability-disclosure/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [IntoDNS.ai Plans Pricing](https://apis.io/plans/intodns-ai/intodns-ai-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://intodns.ai/)
+- [Getting started](https://intodns.ai/citations/how-to-setup-spf-record)
+- [API reference](https://intodns.ai/api-docs)
+- [Pricing](https://intodns.ai/pricing)
+- [Changelog](https://intodns.ai/changelog)
+- [Blog](https://intodns.ai/blog)
+- [Security](https://cobytes.com/responsible-disclosure)
+- [Terms of service](https://intodns.ai/terms)
+- [Privacy policy](https://intodns.ai/privacy)
+
+## API Evangelist rating
+
+**Kin Score 61.9** — strong · rubric 0.27.0 · scored 2026-11-12
+
+| Facet | Score |
+|---|---|
+| Discoverability | 65.0 |
+| Contract quality | 67.4 |
+| Contract governance | 79.1 |
+| Operational transparency | 34.2 |
+| Developer ergonomics | 49.3 |
+| Access clarity | 63.7 |
+
+**Agent readiness 47.8** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | verified |
+| OpenAPI Examples | partial |
+| Rate Limit Signal | verified |
+| Event Surface Described | unknown |
+| Agent Skills | unknown |
+| Well Known Catalog | yes |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | — |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 28.2** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/intodns-ai/](https://apis.io/providers/intodns-ai/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for IntoDNS.ai: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/intodns-ai/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
